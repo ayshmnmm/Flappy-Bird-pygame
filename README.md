@@ -8,6 +8,6 @@ Press the spacebar to start the game and press up arrow key to control the bird.
 The code is pretty messy and the game is still being developed :)
 
 ### Attribution
-Sound from Zapsplat.com
+Sound from Zapsplat.com  
 Images from flaticon.com
 
