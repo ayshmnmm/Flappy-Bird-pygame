@@ -178,50 +178,6 @@ def game() :
 
         pygame.display.update()
 
-
-'''def gameover() :
-    global menurunning
-    global lscore
-    running=True
-    while running :
-
-
-
-
-        screen.fill((0,255,255))
-        for event in pygame.event.get() :
-            if event.type == pygame.QUIT :
-                pygame.mixer.music.pause()
-                running=False
-
-            if event.type == pygame.KEYDOWN :
-                if event.key == pygame.K_q :
-                    running=False
-                    menurunning=False
-                if event.key == pygame.K_r :
-
-                    #menurunning=False
-                    lscore=0
-                    game()
-
-
-
-
-        font = pygame.font.Font('freesansbold.ttf', 24)
-        text = font.render('Flappy Bird', True , (0,0,0))
-        screen.blit(text,(330,20))
-
-        sc='you scored : ' + str(lscore)
-        text2 = font.render(sc, True , (0,0,0))
-        screen.blit(text2,(330,400))
-
-        text3 = font.render('q to quit and r to restart', True , (0,0,0))
-        screen.blit(text3,(330,200))
-
-        pygame.display.update()
-
-
-'''
 menurunning=True
 a=0
 while menurunning :
