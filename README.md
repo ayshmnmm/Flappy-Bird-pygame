@@ -1,12 +1,12 @@
 # Flappy Bird
 A very simple flappy bird style game using the pygame library in python.
 
-## Controls
+## Play
+Download the zip file and run flappy bird/main.py. 
 Press the spacebar to start the game and press up arrow key to control the bird.
 
-## Note
-The code is pretty messy and the game is still being developed :)  
-Also Pygame needs to be installed `pip install pygame`
+## Requirements
+The code makes use of the pygame package. Use `pip install pygame` or something similiar to get pygame.
 
 ### Attribution
 Sound from Zapsplat.com  
