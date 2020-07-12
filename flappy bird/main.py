@@ -1,3 +1,5 @@
+# Flappy bird with pygame
+
 import pygame
 import random
 import time
