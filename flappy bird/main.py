@@ -48,8 +48,8 @@ def game() :
     birdy = pygame.transform.scale(birdy, (34,34))
 
 
-    pygame.mixer.music.load( os.path.join(mypath, 'bgm.mp3') )
-    pygame.mixer.music.play(-1)
+    # pygame.mixer.music.load( os.path.join(mypath, 'bgm.mp3') )
+    # pygame.mixer.music.play(-1)
 
     ups = pygame.mixer.Sound( os.path.join(mypath, 'up.wav') )
     crash = pygame.mixer.Sound( os.path.join(mypath, 'crash.wav') )
